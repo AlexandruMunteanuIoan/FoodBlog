@@ -15,15 +15,17 @@ Follow these simple steps to get started with FoodBlogs:
 ```bash
 # Clone the Repository
 git clone https://github.com/AlexandruMunteanuIoan/FoodBlog.git
-
+```
+```bash
 # Navigate to the Project Directory
 cd FoodBlogs
-
+```
+```bash
 # Run the Application
 #Open Server Panel
-#In console run:
+#In console run
 php artisan serve 
-
+```
 ## Usage
 
 The application will be accessible at http://localhost:3000 by default.
