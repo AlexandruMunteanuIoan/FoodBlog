@@ -22,8 +22,6 @@ cd FoodBlogs
 ```
 ```bash
 # Run the Application
-#Open Server Panel
-#In console run
 php artisan serve 
 ```
 ## Usage
