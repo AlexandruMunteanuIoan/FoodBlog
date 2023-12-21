@@ -45,4 +45,13 @@ class FoodBlogController extends Controller
         $blog->save();
         return redirect(route('blog'));
     }
+
+    public function read(foodblogs $blog){
+        return view('blogs.read')->with('blog', $blog);
+    }
+
+    public function delete(foodblogs $blog){
+        $blog->delete();
+        return redirect(route('blog'));
+    }
 }
